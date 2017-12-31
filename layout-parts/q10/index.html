@@ -37,7 +37,52 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+        <div class="container">
+          <h3><span class="title-line">Form Exercise</span></h3>
+          <form class="clearfix">
+            <div class="main-area">
+              <ul class="main-area-top">
+                <li class="clearfix">
+                  <p class="text-title">Name<span class="required-point"> *</span></p>
+                  <div class="textbox">
+                    <input type="text" class="textbox-init" name="q10_1" required>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class="text-title">Sex</p>
+                  <div class="textbox">
+                    <label class="radio-style">
+                      <input type="radio" class="radio-btn" value="male" name="q10_2"><span class="radio-text">"male"</span>
+                    </label>
+                    <label class="radio_style">
+                      <input type="radio" class="radio-btn" value="female" name="q10_2"><span class="radio-text">"female"</span>
+                    </label>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class="text-title">Email<span class="required-point"> *</span></p>
+                  <div class="textbox">
+                    <input type="text" class="textbox-init" placeholder="ex)hoge@gmail.com" name="q10_3" required>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class="text-title">Telephone</p>
+                  <div class="textbox">
+                    <input type="text" class="textbox-init" placeholder="ex)08012345678" name="q10_4">
+                  </div>
+                </li>
+              </ul>
+              <div class="main-area-bottom clearfix">
+                <div>
+                  <input type="submit" value="submit" class="main-area-bottom-button">
+                </div>
+              </div>
+            </div>
+            <div class="side-area">
+              <textarea class="side-area-init" placeholder="Please fill in the message..." name="q10_5"></textarea>
+            </div>
+          </form>
+        </div>
         <!-- 回答はここに書いてね -->
     </div>
 </div>
