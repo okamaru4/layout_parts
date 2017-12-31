@@ -19,17 +19,17 @@ body {
   clear:both;
 }
 
-.textbox {
+.text_inner {
   padding: 20px;
   background-color: #3274ae;
   float: left;
 }
 
-.textbox:not(:first-child){
+.text_inner:not(:first-child){
   margin-left: 20px;
 }
 
- .textbox > p {
+ .text_inner_box {
   background-color: #eaf4ff;
   width: 230px;
   padding: 20px;
