@@ -17,9 +17,8 @@
   height: 0;
   left: 20px;
   bottom: -40px;
-  border-style: solid;
-  border-color: #222 transparent transparent transparent;
-  border-width: 20px;
+  border: 20px solid transparent;
+  border-top: 20px solid #222;
 }
 
 .ballon:after {
@@ -29,12 +28,11 @@
   height: 0;
   left: 20px;
   bottom: -33px;
-  border-style: solid;
-  border-color: #fff transparent transparent transparent;
-  border-width: 20px;
+  border: 20px solid transparent;
+  border-top: 20px solid #fff;
 }
 
-.ballon > p {
+.ballon_inner {
   position: absolute;
   font-size: 16px;
   line-height: 16px;

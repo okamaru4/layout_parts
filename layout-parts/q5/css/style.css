@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.wrap1 {
-  text-align: center;
-}
+.wrap_top { text-align: center; }
 
-.textbox1 {
+.wrap_top_left {
   background-color: #e6f2ff;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -13,7 +11,7 @@
   display: inline-block;
 }
 
-.textbox2 {
+.wrap_top_right {
   background-color: #e6f2ff;
   width: 90px;
   padding-top: 10px;
@@ -22,38 +20,34 @@
   margin: 0 auto;
 }
 
-.wrap3 {
-  display: table;
-}
+.wrap_middle { display: table; }
 
-.textbox3 {
+.wrap_middle_top {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.textbox3 > p {
+.wrap_middle_top_inner {
   background-color: #fff;
   display: inline-block;
   padding: 10px;
 }
 
-.textbox4 {
+.wrap_middle_bottom {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.textbox4 > p {
+.wrap_middle_bottom_inner {
   background-color: #fff;
   padding: 10px;
 }
 
-.wrap {
-  position: relative;
-}
+.wrap_bottom { position: relative; }
 
-.textbox5 {
+.wrap_bottom_left {
   position: absolute;
   top: 0;
   right: 0;
@@ -64,7 +58,7 @@
   height: 30px;
 }
 
-.textbox6 {
+.wrap_bottom_right {
   position: absolute;
   top: 50%;
   left: 50%;

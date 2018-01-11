@@ -14,29 +14,29 @@
   padding: 20px;
 }
 
-.top1 {
+.is-pink {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.top2 {
+.is-purple {
   background-color: #e0abd9;
 }
 
-.top3 {
+.is-blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.bottom1 {
+.is-orange {
   background-color: #e5d32e;
 }
 
-.bottom2 {
+.is-yellow {
   background-color: #e4e67c;
 }
 
-.bottom3 {
+.is-green {
   background-color: #8fdcad;
   width: 500px;
 }

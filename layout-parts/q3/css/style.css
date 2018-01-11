@@ -9,8 +9,8 @@ table {
 }
 
 th {
-  background-color: #2244aa;
-  color: #ffffff;
+  background-color: #24a;
+  color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
@@ -29,7 +29,7 @@ th, td {
   padding: 10px;
 }
 
-tr:nth-last-child(2) {
-  border-bottom: 2px dashed #000;
+tr:nth-last-child {
+  border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */

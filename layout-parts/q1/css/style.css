@@ -25,11 +25,9 @@ body {
   float: left;
 }
 
-.text_inner:not(:first-child){
-  margin-left: 20px;
-}
+.text_inner:not(:first-child) { margin-left: 20px; }
 
- .text_inner_box {
+.text_inner_box {
   background-color: #eaf4ff;
   width: 230px;
   padding: 20px;

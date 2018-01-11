@@ -22,12 +22,15 @@
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
   appearance: none;
 }
 
 .text {
   border: 1px solid #00a8b8;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .text::-webkit-input-placeholder {
@@ -43,6 +46,7 @@
   border-radius: 5px;
   padding: 5px;
   height: 40px;
+  resize: none;
 }
 
 .radio {
@@ -67,7 +71,7 @@
   height: 14px;
   border-radius: 50%;
   margin-top: -8px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d3cfca;
   content: "";
 }
@@ -106,7 +110,7 @@
   height: 14px;
   border-radius: 50%;
   margin-top: -8px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d3cfca;
   content: "";
 }
@@ -126,7 +130,7 @@
 
 .selectbox {
   position: relative;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .selectbox::before {
@@ -160,6 +164,6 @@
 
 .btn:active {
   background-color: #00a8b8;
-  color: #ffffff;
+  color: #fff;
 }
 /* 回答はここに書いてね */
